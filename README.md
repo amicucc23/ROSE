@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/RedHat-Israel/ROSE.svg?branch=master)](https://travis-ci.org/RedHat-Israel/ROSE)
 
-This project is a game that has been developed in order to help teach kids python.
-The students need to code the behavior of the car to achieve the best score.
+This project is a game developed to help teach kids python.
+The students must code the behavior of the car to achieve the best score.
 
 Here is video of a race (running code from students):
 
@@ -11,16 +11,15 @@ Here is video of a race (running code from students):
 " target="_blank"><img src="rose-video-preview.jpg"
 alt="ROSE Race Car Game" width="860" height="720" border="10" /></a>
 
-In this game, two race cars compete to achieve the most points.
-The race car have to recognize the race track, the obstacles, and the bonus areas;
-calculate the best path to take to avoid the pitfalls; and collect bonus points.
+In the game, two race cars compete in order to achieve the most points.
+The race car must recognize the race track, the obstacles, and the bonus areas. The race car must calculate which path is best to avoid the pitfalls and finally, collect bonus points.
 The cars move autonomously on the screen within the race track game with no interference
-from the students. No joystick or mouse would be used.
+from the students. No joystick or mouse shall be used.
  
 In order to control the car movements, the students needs to implement a 'driver'.
-This code is controlling the car and will decide what will be the next action of the car.
+The code is controlling the car and will decide what will be the next action of the car.
 
-For each type of obstacles there is a different action, and different points.
+For each type of obstacle, there is a different action and different point values assigned.
 
 See [examples/README](examples/README) for explanation on how to write a driver module.
 
@@ -79,7 +78,7 @@ would change game rate to 10 frames per second:
 
 ## Developing
 
-Before submitting patches, please run the tests:
+Before submitting patches, please run the following test:
 
     pytest
 
